@@ -1,0 +1,11 @@
+3.1
+a. (object)klas
+b. std::array< char, 3>
+c. (object)student
+d. std::string
+e. int
+f. (object)mark 
+g. (object)course
+h. uint8_t
+i. std::vector< char>
+

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+mkdir Afbeeldingen;
+for file in $(find "$1" -name "*.jpg"  -or -name "*.png"); 
+	do mv "$file" ~/v1eos-Jordieboyz/shell/Afbeeldingen/;
+	done

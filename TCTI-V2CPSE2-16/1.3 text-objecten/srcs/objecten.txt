@@ -1,0 +1,6 @@
+(499, 188) RECT magenta (40, 100)
+(72, 0) CIRCLE red 90
+(381, 6) PICTURE srcs/index.jpeg
+(373, 6) RECT blue (40, 100)
+(0, 260) CIRCLE white 60
+(433, 335) LINE green 40

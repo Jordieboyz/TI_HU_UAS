@@ -1,0 +1,6 @@
+a. Die maakt een object "book" aan
+b. de initialisatielijst
+c. print() en de constructor
+d. zodat alleen deze class iets met de functies kan doen/gebruikeen
+e. omdat de compiler of gebruiker dan weet dat die functie speciefiek voor dat object is en dat je die ook alleen op dat object kan aanroepen (een object van die klasse dan)
+ 

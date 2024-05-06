@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mkdir Afbeeldingen;
+find "$1" \( -name "*.jpg" -or -name "*.png" \) -exec mv "{}" ~/v1eos-Jordieboyz/shell/Afbeeldingen \;

@@ -1,0 +1,11 @@
+5.1
+a) Je hebt 6 pinnen nodig:
+	de SCLOCK, die zorgt voor de clock
+	de MOSI, de master out slave in, voor de data van de master naar de slave
+	de MISO, master in slave out, voro de data van de slave naar de master
+
+daarnaast heb je voor elk spi object een chip select pin nodig zodat de master ook die specifiek kan aanroepen.
+	dus dat betekent dat ik 3 draden + <aantal SPI-objecten> nodig hebt in dit geval 3 dus 6 draden.
+
+
+b) de Q7' geeft de output van de 7 pins in serie als output

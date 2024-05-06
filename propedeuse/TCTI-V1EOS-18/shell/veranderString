@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "Met deze (nutteloze) toepassing kan je je invoer veranderen naar een gewenste kleur :D"
+echo " "
+printf "Kies een getal om je invoer te veranderen (van kleur):  "
+read CODE
+
+echo " "
+echo -e "\e["$CODE"m"$*"\e[0m" 

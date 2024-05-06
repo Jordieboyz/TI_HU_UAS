@@ -1,0 +1,165 @@
+\hypertarget{classvector}{}\section{vector Class Reference}
+\label{classvector}\index{vector@{vector}}
+
+
+Vector class.  
+
+
+
+
+{\ttfamily \#include $<$vector.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classvector_ada69c108ec9393e6f70bdfcd58366cbf}{vector} (int x=0, int y=0)
+\begin{DoxyCompactList}\small\item\em Constructor of vector class. \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_a9d639bc53d77f17c6ba3af1dd9549424}{operator+} (const \hyperlink{classvector}{vector} \&rhs) const
+\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_a9af16b41f973cd073b089bf5371e8a70}{operator+} () const
+\begin{DoxyCompactList}\small\item\em unary+ for vector \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \& \hyperlink{classvector_a401c12597814627f350a8cd663b6dba5}{operator+=} (const \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em add one vector to another one \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_a35999c3c2b222c116a4a8fca73cda8a9}{operator-\/} (const \hyperlink{classvector}{vector} \&rhs) const
+\begin{DoxyCompactList}\small\item\em substract one vector to another one \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \& \hyperlink{classvector_a9229a3d50eae5ce544f81419d49540ce}{operator-\/=} (const \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em substract one vector to another one \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_ad3885453eb4f2938c532a19729d39b66}{operator$\ast$} (const int \&rhs) const
+\begin{DoxyCompactList}\small\item\em multiplies a vector wwith an integer \end{DoxyCompactList}\item 
+\hyperlink{classvector}{vector} \& \hyperlink{classvector_a8bd821ebc5def1127712ff6b1c95b9ef}{operator$\ast$=} (const int \&rhs)
+\begin{DoxyCompactList}\small\item\em multiply a vector with an integer \end{DoxyCompactList}\item 
+bool \hyperlink{classvector_a0066b879f704f7d344ec9cd2a2f57ea3}{operator==} (const \hyperlink{classvector}{vector} \&rhs) const
+\begin{DoxyCompactList}\small\item\em compare two \char`\"{}vector-\/values\char`\"{} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classvector}{vector} \hyperlink{classvector_aba6d5e4f302ff15758ed8ab4e6a7b681}{operator$\ast$} (const int lhs, \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em multiplies a vector with an integer \end{DoxyCompactList}\item 
+std\+::ostream \& \hyperlink{classvector_a7a6813f75dabd6f9575f9d6f91890255}{operator$<$$<$} (std\+::ostream \&lhs, const \hyperlink{classvector}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em output vector as a list \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Vector class. 
+
+This vector class implements a vector with 2 values in it. The vector consits of 2 integers as elements in the vector. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classvector_ada69c108ec9393e6f70bdfcd58366cbf}\label{classvector_ada69c108ec9393e6f70bdfcd58366cbf}} 
+\index{vector@{vector}!vector@{vector}}
+\index{vector@{vector}!vector@{vector}}
+\subsubsection{\texorpdfstring{vector()}{vector()}}
+{\footnotesize\ttfamily vector\+::vector (\begin{DoxyParamCaption}\item[{int}]{x = {\ttfamily 0},  }\item[{int}]{y = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor of vector class. 
+
+The constructor asks for 2 integers (x and y). The vector had a deafulat \char`\"{}y-\/value\char`\"{} of 0. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classvector_ad3885453eb4f2938c532a19729d39b66}\label{classvector_ad3885453eb4f2938c532a19729d39b66}} 
+\index{vector@{vector}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} vector\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const int \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+multiplies a vector wwith an integer 
+
+The operator$\ast$ multiplies a vector with an integer and returns a new vector wich has been multiplied with the given interger. \mbox{\Hypertarget{classvector_a8bd821ebc5def1127712ff6b1c95b9ef}\label{classvector_a8bd821ebc5def1127712ff6b1c95b9ef}} 
+\index{vector@{vector}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} \& vector\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const int \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+multiply a vector with an integer 
+
+The operator$\ast$= multiplies a vector with an integer and returns the existing vector which is multiplied with the given integer. \mbox{\Hypertarget{classvector_a9d639bc53d77f17c6ba3af1dd9549424}\label{classvector_a9d639bc53d77f17c6ba3af1dd9549424}} 
+\index{vector@{vector}!operator+@{operator+}}
+\index{operator+@{operator+}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} vector\+::operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{classvector}{vector} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+This operator+ adds up 2 vectors and returns a new vector with the addes values. \mbox{\Hypertarget{classvector_a9af16b41f973cd073b089bf5371e8a70}\label{classvector_a9af16b41f973cd073b089bf5371e8a70}} 
+\index{vector@{vector}!operator+@{operator+}}
+\index{operator+@{operator+}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} vector\+::operator+ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+unary+ for vector 
+
+This operator+ returns himself if there is not another vector on the other side of the operator. \mbox{\Hypertarget{classvector_a401c12597814627f350a8cd663b6dba5}\label{classvector_a401c12597814627f350a8cd663b6dba5}} 
+\index{vector@{vector}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} \& vector\+::operator+= (\begin{DoxyParamCaption}\item[{const \hyperlink{classvector}{vector} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+add one vector to another one 
+
+The operator+= adds two vectors up and returns the existing vector which the given vector has been added. \mbox{\Hypertarget{classvector_a35999c3c2b222c116a4a8fca73cda8a9}\label{classvector_a35999c3c2b222c116a4a8fca73cda8a9}} 
+\index{vector@{vector}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} vector\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \hyperlink{classvector}{vector} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+substract one vector to another one 
+
+The operator-\/ substracts two vectors and returns a new vector with the substracted values. \mbox{\Hypertarget{classvector_a9229a3d50eae5ce544f81419d49540ce}\label{classvector_a9229a3d50eae5ce544f81419d49540ce}} 
+\index{vector@{vector}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} \& vector\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \hyperlink{classvector}{vector} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+substract one vector to another one 
+
+The operator-\/= subtracts two vectors and returns the existing vector which the given vector has been subtracted. \mbox{\Hypertarget{classvector_a0066b879f704f7d344ec9cd2a2f57ea3}\label{classvector_a0066b879f704f7d344ec9cd2a2f57ea3}} 
+\index{vector@{vector}!operator==@{operator==}}
+\index{operator==@{operator==}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool vector\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{classvector}{vector} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+compare two \char`\"{}vector-\/values\char`\"{} 
+
+The operator== compares the two values in the \char`\"{}vector\char`\"{} and returns true if those are equal to each other. 
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classvector_aba6d5e4f302ff15758ed8ab4e6a7b681}\label{classvector_aba6d5e4f302ff15758ed8ab4e6a7b681}} 
+\index{vector@{vector}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator$\ast$}{operator*}}
+{\footnotesize\ttfamily \hyperlink{classvector}{vector} operator$\ast$ (\begin{DoxyParamCaption}\item[{const int}]{lhs,  }\item[{\hyperlink{classvector}{vector} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+multiplies a vector with an integer 
+
+the given vector can get multiplied with an integer if the integer is on the left side of the operator. \mbox{\Hypertarget{classvector_a7a6813f75dabd6f9575f9d6f91890255}\label{classvector_a7a6813f75dabd6f9575f9d6f91890255}} 
+\index{vector@{vector}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!vector@{vector}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{lhs,  }\item[{const \hyperlink{classvector}{vector} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+output vector as a list 
+
+The operator$<$$<$ prints a vector in a hexadecicmal format \mbox{[}0x0000, 0x\+Aa\+Bb\mbox{]}. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{vector_8hpp}{vector.\+hpp}\item 
+vector.\+cpp\end{DoxyCompactItemize}

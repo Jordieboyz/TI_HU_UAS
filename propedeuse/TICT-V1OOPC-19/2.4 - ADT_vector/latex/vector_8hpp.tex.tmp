@@ -1,0 +1,11 @@
+\hypertarget{vector_8hpp}{}\section{vector.\+hpp File Reference}
+\label{vector_8hpp}\index{vector.\+hpp@{vector.\+hpp}}
+{\ttfamily \#include \char`\"{}ostream\char`\"{}}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+Include dependency graph for vector.\+hpp\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classvector}{vector}
+\begin{DoxyCompactList}\small\item\em Vector class. \end{DoxyCompactList}\end{DoxyCompactItemize}

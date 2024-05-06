@@ -1,0 +1,17 @@
+*.due
+*.link
+*.png
+*.jpg
+*.dot
+*.c
+*.o
+*.bins
+*.elf
+*.ld
+*.map
+*.sln
+*.exe
+*.tex
+*.sty
+*.tmp
+

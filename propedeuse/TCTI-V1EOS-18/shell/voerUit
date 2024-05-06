@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+filenaam="$1"
+
+case "${filenaam##*.}" in
+	py) 
+		chmod +x "$1"
+		python3 "${1}"
+	;;
+	sh) 
+		chmod +x "$1"
+		bash "$1"
+	;;
+	cc)
+		cat "$1"
+	;;
+esac

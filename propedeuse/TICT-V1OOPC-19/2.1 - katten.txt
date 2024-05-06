@@ -1,0 +1,5 @@
+			R(ed)	G(reen)	B(lue)	n_lives
+pianocat	 230	 	10 	  		6	  	1
+ceilingcat	  7	   	   	4	 	  	5	  	9
+happycat	 118	   	7	 	 	 5	  	10
+pinaocat2	 255	   	40	  		30	 	10		

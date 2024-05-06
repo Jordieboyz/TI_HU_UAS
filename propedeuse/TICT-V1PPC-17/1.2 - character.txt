@@ -1,0 +1,26 @@
+1.2.1
+a = 97
+b = 98
+c = 99
+h = 104
+z = 122
+
+1.2.2
+A = 65
+B = 66
+C = 67
+H = 72
+Z = 90
+
+1.2.3
+71
+
+1.2.4
+8 = 8
+0 = 0
+
+1.2.5
+4 - 0 = 4
+
+1.2.6
+dan weet je waar getallen en cijfers in de ASCII tabel komen op decimale waarden..

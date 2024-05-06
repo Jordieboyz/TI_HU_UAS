@@ -1,0 +1,24 @@
+#############################################################################
+#
+# Project Makefile
+#
+# (c) Wouter van Ooijen (www.voti.nl) 2016
+#
+# This file is in the public domain.
+# 
+#############################################################################
+
+# source files in this project (main.cpp is automatically assumed)
+SOURCES := circle.cpp line.cpp wall.cpp rectangle.cpp drawable.cpp ball.cpp victim.cpp
+
+# header files in this project
+HEADERS := circle.hpp line.hpp wall.hpp rectangle.hpp drawable.hpp ball.hpp victim.hpp
+
+# other places to look for files for this project
+SEARCH  := 
+
+# set BMPTK to the next higher directory and defer to the Makefile.due
+# set RELATIVE to the next higher directory 
+# and defer to the Makefile.* there
+RELATIVE := ..
+include $(RELATIVE)/Makefile.native

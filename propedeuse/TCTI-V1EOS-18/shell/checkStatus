@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+touch log
+> log
+
+filenaam="$1"
+commando="$2"
+
+for file in $(find "$1"); do
+	$commando "$file"
+	if [ $? == 0 ]; then
+		echo "$commando" is goed uitgoerd op "$file" >> log
+	else
+		echo "$commando" is fout gegaan op "$file" >> log
+	fi
+done

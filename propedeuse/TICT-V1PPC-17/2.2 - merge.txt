@@ -1,0 +1,5 @@
+c++ drukt om de beurt de eerstvoglende letter van een ingevoerde string af.
+bijvorbeeld ^string merge("hi", "ha")^ wordt hhia
+
+als er 1 string langer is dan wordt de maxSize() even lang als de langste van de (in dit geval) 2.
+dus als string  1 uit 60 characters bestaat en string 2 uit 61 dan wordt de maxSize 61.

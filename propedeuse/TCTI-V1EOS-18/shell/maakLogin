@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+> "$1"
+
+vraagNaam="Geef je username: "
+vraagWachtwoord="Geef een wachtwoord op: "
+vraagVerzekerWachtwoord="Geef nogmaals je wachtwoord op: "
+
+
+echo $vraagNaam
+        read USER_NAME
+
+        if [ -z "$USER_NAME" ]; then
+		whoami >> "$1"
+	else
+		echo "$USER_NAME" >> "$1"
+        fi
+
+echo $vraagWachtwoord
+read Wachtwoord
+echo $vraagVerzekerWachtwoord
+read Wachtwoord2
+
+
+while [ true ]; do
+	if [ "$(echo "$Wachtwoord" | wc -m)" -lt '9' ]; then
+		echo "Zorg dat je wachtwoord minimaal 8 karakters bevat!"
+		echo "$vraagWachtwoord"
+		read Wachtwoord
+		echo "$vraagVerzekerWachtwoord"
+		read Wachtwoord2
+	else if [ "$Wachtwoord" != "$Wachtwoord2" ]; then
+		echo "Zorg dat je twee keer hetzelfde wachtwoord typt!"
+		echo $vraagWachtwoord
+		read Wachtwoord
+		echo $vraagVerzekerWachtwoord
+		read Wachtwoord2
+	else
+		echo "Goed gedaan! Je wachtwoord klopt!"
+		echo "$( echo -n "$Wachtwoord" | md5sum )" >> "$1"
+		break
+	fi	
+fi
+done

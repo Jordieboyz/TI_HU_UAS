@@ -1,0 +1,3 @@
+het %-teken geeft de rest van een getal na een deling.
+Dus 10 % 5 geeft 0 want 5 gaat precies 2 keer in 10.
+maar 10 % 6 geeft 4 want 6 gaat maar 1 keer in 10 en dan blijft er een rest van 4 over.

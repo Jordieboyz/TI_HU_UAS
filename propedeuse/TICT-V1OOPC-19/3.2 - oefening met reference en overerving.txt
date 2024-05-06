@@ -1,0 +1,12 @@
+1. geen error, je geeft een car mee aan een functie die car nodig heeft
+2. geen error, je geeft een "intercity"-type mee, die op zijn beurt inherit van train dus een train type is
+3. wel error, je geeft een  "train"-type mee, maar je moet een "car"-type meegeven
+4. wel error, je geeft een "car"-type mee, maar hij heeft een "train"-type nodig
+5. geen error, je geeft een intercity die overerft van train en train die overerft van vehicle en je moet een vehicle meegeven
+6. geen error, je geeft een "car"-type mee en de car klasse overerft van e vehicle klasse
+7. geen error, je maakt van een reference van een intercity een intercity
+8. wel error, je maakt van een reference van car een intercity en dat kan niet
+9. geen error, je maakt een reference van train en je geeft een intercity mee en die inherit van train.
+10. wel error, je maakt van een referece van train een car en dat kan niet
+11. wel error, je maakt van een reference van intercity een car en dat kan niet
+12. wel error, je maakt van een reference van een intercity een train en dat kan niet

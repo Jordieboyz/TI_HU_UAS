@@ -1,0 +1,11 @@
+numberOfCats() 		- integer
+firstVowel() 		- char
+getAge()		- integer
+getName()		- string
+count()			- integer
+printRow()		- void
+uppercase()		- char/string
+isEqual()		- bool
+readTextFile()		- string
+isBike()		- bool
+yourTeacher()		- string

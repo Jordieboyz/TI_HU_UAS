@@ -1,0 +1,7 @@
+4.1
+a.	bare-metal betekent dat je "direct" bezig bent met de hardwaren ipv met een OS ertussen, oftewel het direct hoog of laag maken van pinnen
+b. het nut van een weak pull up is dat de pinnen standaard hoog zijn en laag kunnen worden getrokken, wanneer nodig
+
+
+c. je kan met een namespace veel functies bij elkaar houden onder dezelde "(namespace)naam" dus ja vermijd hiermee dat ej dubbele functies gebruikt terwijl dat niet nodig is.
+	je kan hiermee ook voorkomen dat als je library's gebruikt  met dezelfde namen je die "uit elkaar" kan houden.
