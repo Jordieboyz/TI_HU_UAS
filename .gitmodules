@@ -4,3 +4,6 @@
 [submodule "propedeuse/TCTI-V1GP-19/Config Wumpus/rapidjson"]
 	path = propedeuse/TCTI-V1GP-19/Config Wumpus/rapidjson
 	url = git@github.com:Tencent/rapidjson.git
+[submodule "propedeuse/TCTI-V1GP-19/Config Wumpus/rapidjson-master"]
+	path = propedeuse/TCTI-V1GP-19/Config Wumpus/rapidjson-master
+	url = git@github.com:Tencent/rapidjson.git
