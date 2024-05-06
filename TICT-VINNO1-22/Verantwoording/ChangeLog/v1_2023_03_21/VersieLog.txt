@@ -1,0 +1,26 @@
+Version: 1
+Date: 21-03-2023
+Author: Jort de Boer
+
+Added from previous Version Review:
+	
+	See Peer-Review
+
+	Removed 'Flashing the Fairphone 4' 
+	
+	*Change Name of document, add version!*
+
+Before_Review:
+
+	[[ Review previous version -> see ../V$($VERSION-1)_*/VersieLog.txt  ]]	
+
+	Created Style Sheet
+		
+	Highlight the important words with colouring for all paragraphs.
+	
+	Reworked the first page (version, project, name)
+	Rewrote “Introduction,” Rewrote “The Project”
+	Added “Mutation History”, Contents, 'Kernel and Device Configurations', 
+	‘Project Errors’ and 'Definitions'.
+	Added “Peer-Reviews” and committed changes wherever needed.
+	Deleted Literature 
